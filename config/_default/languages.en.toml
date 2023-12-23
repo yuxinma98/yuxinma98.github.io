@@ -32,7 +32,7 @@ copyright = "Copyright 2023 Yuxin Ma."
   #   { foursquare = "https://foursquare.com/username" },
    { github = "https://github.com/ym371" },
   #   { gitlab = "https://gitlab.com/username" },
-   { google-scholar = "https://scholar.google.com/citations?hl=en&user=4P8mnaAAAAAJ" },
+   { google = "https://scholar.google.com/citations?hl=en&user=4P8mnaAAAAAJ" },
   #   { hashnode = "https://username.hashnode.dev" },
   #   { instagram = "https://instagram.com/username" },
   #   { keybase = "https://keybase.io/username" },
