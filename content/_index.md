@@ -5,7 +5,7 @@ Hi! I am a first year PhD student at the [Deparment of Applied Mathematics and S
 
 My research interests lie at the intersection of mathematics and deep learning. I am exploring how to incorporate mathematical ideas into the design of new deep learning algorithms, while also investigating how deep learning can aid in solving challenging mathematical problems. Currently, my focus is on **Graph Neural Networks** and **Equivariant Neural Networks**.
 
-Previously, I completed an MMath and BA Hons degree in Mathematics at the University of Cambridge. During my master's studies, I focused on statistics and completed an essay on **Topological Data Analysis**.
+Previously, I completed an MMath and BA Hons degree in Mathematics at the University of Cambridge. During my master's studies, I focused on statistics and completed an [essay](https://1drv.ms/b/s!AvmtE7tyQT_ggrMNzUn0DccMM91-qQ?e=NHORc7) on **Topological Data Analysis**.
 
 To learn more about my background, you can check out my [CV](https://1drv.ms/b/s!AvmtE7tyQT_ggrFpSQNhB2DoLdyEmQ?e=pKYH4r).
 
