@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>foss on Yuxin&#39;s Personal Website</title>
+    <link>https://example.org/tags/foss/</link>
+    <description>Recent content in foss on Yuxin&#39;s Personal Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright 2023 Yuxin Ma.</copyright>
+    <lastBuildDate>Tue, 19 Apr 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://example.org/tags/foss/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ansible roles for the infra!</title>
+      <link>https://example.org/talks/2023_topo/</link>
+      <pubDate>Tue, 19 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.org/talks/2023_topo/</guid>
+      <description>As our infrastructure is growing, the number of services and tasks is increasing as well. This can be tedious and time-consuming, especially when you have to deal with a lot of servers - enter Ansible! Ansible allows automating tasks on a wide range of platforms, including Linux, Windows, and Mac. :wrench:</description>
+    </item>
+  </channel>
+</rss>

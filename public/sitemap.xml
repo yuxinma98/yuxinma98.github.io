@@ -3,6 +3,41 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     
+  
+    
+      <url>
+            <loc>https://example.org/talks/2023_topo/</loc>
+            <lastmod>2022-04-19T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>https://example.org/</loc>
+            <lastmod>2022-04-19T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>https://example.org/talks/</loc>
+            <lastmod>2022-04-19T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
       <url>
             <loc>https://example.org/research/</loc>
           </url>
@@ -11,14 +46,6 @@
     
       <url>
             <loc>https://example.org/about/</loc>
-          </url>
-    
-  
-    
-  
-    
-      <url>
-            <loc>https://example.org/</loc>
           </url>
     
   
