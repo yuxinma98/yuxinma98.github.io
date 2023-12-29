@@ -3,20 +3,19 @@ languageName = "English"
 languageDirection = "ltr"
 weight = 1
 
-title = "Yuxin's Personal Website"
+title = "Yuxin's personal website"
 copyright = "Copyright 2023 Yuxin Ma."
 
 [params]
   dateFormat = "2 January 2006"
-
-  mainSections = ["section1", "section2"]
-  description = "My awesome website"
+#  mainSections = ["section1", "section2"]
+  description = "Yuxin's personal website"
 
 [author]
   name = "Yuxin Ma"
   # image = "img/author.jpg"
   headline = "PhD Student, Johns Hopkins University"
-  bio = "Yuxin Ma"
+  bio = "Yuxin Ma @ JHU"
   links = [
     { email = "mailto:yma93@jh.edu" },
   #   { link = "https://link-to-some-website.com/" },
