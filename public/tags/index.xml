@@ -1,54 +1,54 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Yuxin&#39;s Personal Website</title>
-    <link>https://example.org/tags/</link>
-    <description>Recent content in Tags on Yuxin&#39;s Personal Website</description>
+    <title>Tags on Yuxin&#39;s personal website</title>
+    <link>https://yuxinma98.github.io/tags/</link>
+    <description>Recent content in Tags on Yuxin&#39;s personal website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright 2023 Yuxin Ma.</copyright>
     <lastBuildDate>Tue, 19 Apr 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://yuxinma98.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ansible</title>
-      <link>https://example.org/tags/ansible/</link>
+      <link>https://yuxinma98.github.io/tags/ansible/</link>
       <pubDate>Tue, 19 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>https://example.org/tags/ansible/</guid>
+      <guid>https://yuxinma98.github.io/tags/ansible/</guid>
       <description></description>
     </item>
     <item>
       <title>chaotic-aur</title>
-      <link>https://example.org/tags/chaotic-aur/</link>
+      <link>https://yuxinma98.github.io/tags/chaotic-aur/</link>
       <pubDate>Tue, 19 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>https://example.org/tags/chaotic-aur/</guid>
+      <guid>https://yuxinma98.github.io/tags/chaotic-aur/</guid>
       <description></description>
     </item>
     <item>
       <title>foss</title>
-      <link>https://example.org/tags/foss/</link>
+      <link>https://yuxinma98.github.io/tags/foss/</link>
       <pubDate>Tue, 19 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>https://example.org/tags/foss/</guid>
+      <guid>https://yuxinma98.github.io/tags/foss/</guid>
       <description></description>
     </item>
     <item>
       <title>garuda</title>
-      <link>https://example.org/tags/garuda/</link>
+      <link>https://yuxinma98.github.io/tags/garuda/</link>
       <pubDate>Tue, 19 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>https://example.org/tags/garuda/</guid>
+      <guid>https://yuxinma98.github.io/tags/garuda/</guid>
       <description></description>
     </item>
     <item>
       <title>linux</title>
-      <link>https://example.org/tags/linux/</link>
+      <link>https://yuxinma98.github.io/tags/linux/</link>
       <pubDate>Tue, 19 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>https://example.org/tags/linux/</guid>
+      <guid>https://yuxinma98.github.io/tags/linux/</guid>
       <description></description>
     </item>
     <item>
       <title>open source</title>
-      <link>https://example.org/tags/open-source/</link>
+      <link>https://yuxinma98.github.io/tags/open-source/</link>
       <pubDate>Tue, 19 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>https://example.org/tags/open-source/</guid>
+      <guid>https://yuxinma98.github.io/tags/open-source/</guid>
       <description></description>
     </item>
   </channel>
