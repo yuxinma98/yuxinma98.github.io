@@ -13,6 +13,6 @@ In my fourth year at Cambridge, I was introduced to the field of **Geometric Dee
 Here, I outline some of the topics I am currently exploring and feel passionately about. If you share an interest in these areas, we should chat!
 
 * Imposing symmetries in Neural Networks (equivariance in neural networks).
-* Expressivity and universality of GNN.
+* Expressivity and universality of Graph Neural Networks and Equivariant Neural Networks.
 * Algorithmic alignment with GNN.
-* Utilizing GNN for solving combinatorial optimization problems.
+* Applying Category Theory to build novel Neural Networks (Categorical Deep Learning)

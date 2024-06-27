@@ -20,10 +20,10 @@
 #   pageRef = "research"
 #   weight = 20
 
-# [[main]]
-#   name = "Talks"
-#   pageRef = "talks"
-#   weight = 30
+[[main]]
+  name = "Talks"
+  pageRef = "talks"
+  weight = 30
 
 # [[main]]
 #   name = "Blogs"
