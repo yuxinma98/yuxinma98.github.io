@@ -3,7 +3,7 @@ languageName = "English"
 languageDirection = "ltr"
 weight = 1
 
-title = "Yuxin's personal website"
+title = "Yuxin Ma"
 copyright = "Copyright 2023 Yuxin Ma."
 
 [params]
@@ -11,9 +11,9 @@ copyright = "Copyright 2023 Yuxin Ma."
 #  mainSections = ["section1", "section2"]
   description = "Yuxin's personal website"
 
-[author]
+[params.author]
   name = "Yuxin Ma"
-  # image = "img/author.jpg"
+  image = "img/me.jpg"
   headline = "PhD Student, Johns Hopkins University"
   bio = "Yuxin Ma @ JHU"
   links = [
@@ -31,7 +31,7 @@ copyright = "Copyright 2023 Yuxin Ma."
   #   { foursquare = "https://foursquare.com/username" },
    { github = "https://github.com/yuxinma98" },
   #   { gitlab = "https://gitlab.com/username" },
-   { google = "https://scholar.google.com/citations?hl=en&user=4P8mnaAAAAAJ" },
+   { google-scholar = "https://scholar.google.com/citations?hl=en&user=4P8mnaAAAAAJ" },
   #   { hashnode = "https://username.hashnode.dev" },
   #   { instagram = "https://instagram.com/username" },
   #   { keybase = "https://keybase.io/username" },
@@ -56,6 +56,6 @@ copyright = "Copyright 2023 Yuxin Ma."
   #   { tumblr = "https://username.tumblr.com" },
   #   { twitch = "https://twitch.tv/username" },
   #   { whatsapp = "https://wa.me/phone-number" },
-    { x-twitter = "https://twitter.com/MYuxin" },
+  #   { x-twitter = "https://twitter.com/MYuxin" },
   #   { youtube = "https://youtube.com/username" },
  ]
