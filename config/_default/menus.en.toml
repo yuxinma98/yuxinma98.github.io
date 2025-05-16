@@ -10,15 +10,15 @@
 # overridden by providing a weight value. The menu will then be
 # ordered by weight from lowest to highest.
 
-[[main]]
-  name = "About"
-  pageRef = "about"
-  weight = 10
-
 # [[main]]
-#   name = "Research"
-#   pageRef = "research"
-#   weight = 20
+#  name = "About"
+#  pageRef = "about"
+#  weight = 10
+
+[[main]]
+   name = "Research"
+   pageRef = "research"
+   weight = 20
 
 [[main]]
   name = "Talks"
@@ -33,7 +33,7 @@
 [[main]]
   name = "CV"
   weight = 98
-  url = "https://1drv.ms/b/s!AvmtE7tyQT_ggrFpSQNhB2DoLdyEmQ?e=pKYH4r"
+  url = "https://1drv.ms/b/c/e03f4172bb13adf9/QfmtE7tyQT8ggODpmAAAAAAASQNhB2DoLdyEmQ"
 
 [[main]]
   identifier = "search"

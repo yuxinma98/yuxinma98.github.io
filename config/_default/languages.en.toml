@@ -3,8 +3,8 @@ languageName = "English"
 languageDirection = "ltr"
 weight = 1
 
-title = "Yuxin Ma"
-copyright = "Copyright 2023 Yuxin Ma."
+title = "Yuxin's personal website"
+copyright = "Copyright 2025 Yuxin Ma."
 
 [params]
   dateFormat = "2 January 2006"

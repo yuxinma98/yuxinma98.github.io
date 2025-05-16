@@ -2,54 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Yuxin&#39;s personal website</title>
-    <link>https://yuxinma98.github.io/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Yuxin&#39;s personal website</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <copyright>Copyright 2023 Yuxin Ma.</copyright>
-    <lastBuildDate>Tue, 19 Apr 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://yuxinma98.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>ansible</title>
-      <link>https://yuxinma98.github.io/tags/ansible/</link>
-      <pubDate>Tue, 19 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>https://yuxinma98.github.io/tags/ansible/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>chaotic-aur</title>
-      <link>https://yuxinma98.github.io/tags/chaotic-aur/</link>
-      <pubDate>Tue, 19 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>https://yuxinma98.github.io/tags/chaotic-aur/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>foss</title>
-      <link>https://yuxinma98.github.io/tags/foss/</link>
-      <pubDate>Tue, 19 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>https://yuxinma98.github.io/tags/foss/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>garuda</title>
-      <link>https://yuxinma98.github.io/tags/garuda/</link>
-      <pubDate>Tue, 19 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>https://yuxinma98.github.io/tags/garuda/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>linux</title>
-      <link>https://yuxinma98.github.io/tags/linux/</link>
-      <pubDate>Tue, 19 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>https://yuxinma98.github.io/tags/linux/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>open source</title>
-      <link>https://yuxinma98.github.io/tags/open-source/</link>
-      <pubDate>Tue, 19 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>https://yuxinma98.github.io/tags/open-source/</guid>
-      <description></description>
-    </item>
+    <copyright>Copyright 2025 Yuxin Ma.</copyright>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
