@@ -15,7 +15,7 @@
         {{/* Use $.Params.authors to access authors from the root context */}}
         {{- range $index, $author := $.Params.authors -}}
           {{- $isEqual := strings.Contains $author "*" -}}
-          {{- $cleanAuthor := replace $author "*" "" | strings.TrimSpace -}}
+          {{- $cleanAuthor := replace $author "*" "" -}}
           <span class="font-medium">{{ $cleanAuthor }}</span>{{ if $isEqual }}<sup title="Equal contribution">*</sup>{{ end }}{{ if lt (add $index 1) (len $.Params.authors) }},{{ end }}&nbsp;
         {{- end -}}
       </p>
