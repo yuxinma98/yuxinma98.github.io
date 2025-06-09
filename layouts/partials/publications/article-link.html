@@ -1,0 +1,60 @@
+{{/* layouts/partials/research/article-link.html */}}
+
+<article class="max-w-prose border-b border-neutral-200/70 pb-8 pt-4 dark:border-neutral-700/70">
+
+  {{/* --- TITLE --- */}}
+  {{/* Use $.Title to access the page title from the root context */}}
+  <h3 class="text-lg font-semibold text-neutral-800 dark:text-neutral-100">
+    {{ $.Title | emojify }}
+  </h3>
+
+  {{/* --- METADATA: Authors & Venue/Status --- */}}
+  <div class="mt-1 flex flex-wrap items-center gap-x-2 text-sm text-neutral-600 dark:text-neutral-400">
+    {{ if $.Params.authors }}
+      <p>
+        {{/* Use $.Params.authors to access authors from the root context */}}
+        {{- range $index, $author := $.Params.authors -}}
+          {{- $isEqual := strings.Contains $author "*" -}}
+          {{- $cleanAuthor := replace $author "*" "" | strings.TrimSpace -}}
+          <span class="font-medium">{{ $cleanAuthor }}</span>{{ if $isEqual }}<sup title="Equal contribution">*</sup>{{ end }}{{ if lt (add $index 1) (len $.Params.authors) }},{{ end }}&nbsp;
+        {{- end -}}
+      </p>
+    {{ end }}
+
+    {{ if $.Params.avenue }}
+      <span class="inline-block rounded-full border border-sky-300 bg-sky-50 px-2 py-0.5 text-xs font-medium text-sky-600 dark:border-sky-700 dark:bg-sky-900/50 dark:text-sky-300">
+        {{ $.Params.avenue }}
+      </span>
+    {{ end }}
+  </div>
+
+  {{/* --- TL;DR SECTION --- */}}
+  {{ if $.Params.tldr }}
+    <p class="mt-4 text-sm text-neutral-700 dark:text-neutral-300">
+      <strong class="font-semibold">TL;DR:</strong> {{ $.Params.tldr | emojify }}
+    </p>
+  {{ end }}
+
+  {{/* --- KEYWORDS SECTION (Styled as Tags) --- */}}
+  {{ if $.Params.keywords }}
+    <div class="mt-4 flex flex-wrap items-center gap-2">
+      {{/* Inside this loop, "." becomes a keyword string. This is why we must use "$" elsewhere. */}}
+      {{ range $.Params.keywords }}
+        <span class="rounded-full bg-neutral-100 px-3 py-1 text-xs font-medium text-neutral-700 dark:bg-neutral-800 dark:text-neutral-300">
+          {{ . }}
+        </span>
+      {{ end }}
+    </div>
+  {{ end }}
+
+{{/* --- LINK SECTION (Styled as Green Button) --- */}}
+  {{/* The link is a visually distinct button, now using a green color scheme. */}}
+  {{ if $.Params.arxivUrl }}
+    <div class="prose py-1 dark:prose-invert">
+    <a href="{{ .Params.arxivUrl }}" class="default-link hover:underline hover:decoration-2 hover:underline-offset-2">arxiv version</a>
+    </p>
+    </div>
+    
+  {{ end }}
+
+</article>
