@@ -6,7 +6,7 @@ authors:
   - "Yuxin Ma*"
   - "Mateo Díaz"
   - "Soledad Villar"
-avenue: "Under review."
+avenue: "Preprint."
 arxivUrl: "https://arxiv.org/abs/2505.23599"
 keywords:
   - transferability

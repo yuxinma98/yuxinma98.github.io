@@ -4,7 +4,7 @@ date: 2025-05-18
 authors:
   - "Yuxin Ma"
   - "Dmitriy Kunisky"
-avenue: "Under review."
+avenue: "Preprint."
 arxivUrl: "https://arxiv.org/abs/2505.12528"
 keywords:
   - principal component analysis

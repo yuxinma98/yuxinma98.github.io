@@ -19,6 +19,8 @@
   <div class="min-w-0 min-h-0 max-w-prose grow">{{ .Content | emojify }}</div>
 </section>
 
+<p class="text-sm italic text-neutral-600 dark:text-neutral-400">* indicates equal contribution or alphabetic order.</p>
+
 {{ if .Data.Pages }}
 <section>
   {{ if $.Params.groupByYear | default ($.Site.Params.list.groupByYear | default true) }}
