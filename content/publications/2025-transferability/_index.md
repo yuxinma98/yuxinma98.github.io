@@ -6,7 +6,7 @@ authors:
   - "Yuxin Ma*"
   - "Mateo Díaz"
   - "Soledad Villar"
-avenue: "Preprint."
+avenue: "NeurIPS 2025 (Spotlight)."
 arxivUrl: "https://arxiv.org/abs/2505.23599"
 keywords:
   - transferability
@@ -14,5 +14,5 @@ keywords:
   - graph neural networks
   - equivariant machine learning
   - any-dimensional learning
-tldr: "We study the properties that make machine learning models generalize their performance across dimensions."
+tldr: "We study the properties that make machine learning models generalize their performance across input dimensions."
 ---
