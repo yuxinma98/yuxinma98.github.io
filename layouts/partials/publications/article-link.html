@@ -25,10 +25,7 @@
     <span class="text-sm text-neutral-500 dark:text-neutral-400">
       {{ if $.Params.avenue }}
         {{ $.Params.avenue }}
-      {{ end }}
-      {{ if and $.Params.avenue (not .Date.IsZero) }}
-      {{ end }}
-      {{ if not .Date.IsZero }}
+      {{ else if not .Date.IsZero }}
         <time datetime="{{ .Date.Format "2006-01-02" }}">
           ({{ .Date.Format "2006" }}).
         </time>
@@ -57,13 +54,16 @@
   {{ end }}
 
 {{/* --- LINK SECTION (Styled as Green Button) --- */}}
-  {{/* The link is a visually distinct button, now using a green color scheme. */}}
-  {{ if $.Params.arxivUrl }}
-    <div class="prose py-1 dark:prose-invert">
-    <a href="{{ .Params.arxivUrl }}" class="default-link hover:underline hover:decoration-2 hover:underline-offset-2">arxiv version</a>
-    </p>
+{{/* Inline links: show both on the same line when present */}}
+  {{ if or $.Params.arxivUrl $.Params.neuripsUrl }}
+  <div class="prose py-1 dark:prose-invert flex flex-wrap items-center gap-6">
+      {{ if $.Params.arxivUrl }}
+        <a href="{{ .Params.arxivUrl }}" class="default-link hover:underline hover:decoration-2 hover:underline-offset-2 mr-2">arXiv version (preferred)</a>
+      {{ end }}
+      {{ if $.Params.neuripsUrl }}
+        <a href="{{ .Params.neuripsUrl }}" class="default-link hover:underline hover:decoration-2 hover:underline-offset-2 ml-4">NeurIPS page</a>
+      {{ end }}
     </div>
-    
   {{ end }}
 
 </article>

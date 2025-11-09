@@ -6,6 +6,7 @@ authors:
   - "Dmitriy Kunisky"
 avenue: "NeurIPS 2025 (Spotlight)."
 arxivUrl: "https://arxiv.org/abs/2505.12528"
+neuripsUrl: "https://neurips.cc/virtual/2025/loc/san-diego/poster/116659"
 keywords:
   - principal component analysis
   - random matrix theory

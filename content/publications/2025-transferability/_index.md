@@ -8,6 +8,7 @@ authors:
   - "Soledad Villar"
 avenue: "NeurIPS 2025 (Spotlight)."
 arxivUrl: "https://arxiv.org/abs/2505.23599"
+neuripsUrl: "https://neurips.cc/virtual/2025/loc/san-diego/poster/118775"
 keywords:
   - transferability
   - size generalization
