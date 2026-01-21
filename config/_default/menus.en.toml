@@ -33,7 +33,7 @@
 [[main]]
   name = "CV"
   weight = 98
-  url = "https://1drv.ms/b/c/e03f4172bb13adf9/QfmtE7tyQT8ggODpmAAAAAAASQNhB2DoLdyEmQ"
+  url = "/CV.pdf"
 
 [[main]]
   identifier = "search"
