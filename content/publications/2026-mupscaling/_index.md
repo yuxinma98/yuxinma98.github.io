@@ -1,6 +1,6 @@
 ---
-title: "$\\mu$pscaling small models: Principled warm starts and hyperparameter transfer"
-date: 2025-05-29
+title: "<span style='font-size: 1.3em;'>μ</span>pscaling small models: Principled warm starts and hyperparameter transfer"
+date: 2026-02-12
 authors:
   - "Yuxin Ma"
   - "Nan Chen"
@@ -18,6 +18,6 @@ keywords:
   - tensor program
   - training dynamics
   - infinite-width limit
-tldr: "We propose a $\\mu$P-based model upscaling method that allows hyperparameter transfer."
+tldr: "We propose a μP-based model upscaling method that allows hyperparameter transfer."
 
 ---

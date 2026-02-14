@@ -3,6 +3,12 @@
 
 [goldmark]
 [goldmark.renderer]
+  [goldmark.extensions]
+      [goldmark.extensions.passthrough]
+        enable = true
+        [goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)'], ['$', '$']]
   unsafe = true
 
 [highlight]
