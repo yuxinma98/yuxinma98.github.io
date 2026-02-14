@@ -1,5 +1,5 @@
 ---
-title: "On Transferring Transferability: Towards a Theory for Size Generalization"
+title: "On transferring transferability: Towards a theory for size generalization"
 date: 2025-05-29
 authors:
   - "Eitan Levin*"
