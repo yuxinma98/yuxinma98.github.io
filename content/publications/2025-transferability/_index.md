@@ -1,5 +1,5 @@
 ---
-title: "On Transferring Transferability: Towards a Theory for Size Generalization"
+title: "On transferring transferability: Towards a theory for size generalization"
 date: 2025-05-29
 authors:
   - "Eitan Levin*"
@@ -17,4 +17,5 @@ keywords:
   - equivariant machine learning
   - any-dimensional learning
 tldr: "We study the properties that make machine learning models generalize their performance across input dimensions."
+posterUrl: "/posters/OnTransferringTransferabilit(landscape).pdf"
 ---
