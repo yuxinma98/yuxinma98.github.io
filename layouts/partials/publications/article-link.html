@@ -55,7 +55,7 @@
 
 {{/* --- LINK SECTION (Styled as Green Button) --- */}}
 {{/* Inline links: show both on the same line when present */}}
-  {{ if or $.Params.arxivUrl $.Params.neuripsUrl or $.Params.codeUrl }}
+  {{ if or $.Params.arxivUrl $.Params.neuripsUrl or $.Params.codeUrl $.Params.posterUrl }}
   <div class="prose py-1 mt-2 dark:prose-invert flex flex-wrap items-center gap-6">
       {{ if $.Params.arxivUrl }}
         <a href="{{ .Params.arxivUrl }}" class="default-link hover:underline hover:decoration-2 hover:underline-offset-2 mr-2">[arXiv(preferred)]</a>
@@ -65,6 +65,9 @@
       {{ end }}
       {{ if $.Params.codeUrl }}
         <a href="{{ .Params.codeUrl }}" class="default-link hover:underline hover:decoration-2 hover:underline-offset-2 mr-2">[Code]</a>
+      {{ end }}
+      {{ if $.Params.posterUrl }}
+        <a href="{{ .Params.posterUrl }}" class="default-link hover:underline hover:decoration-2 hover:underline-offset-2 mr-2">[Poster]</a>
       {{ end }}
     </div>
   {{ end }}

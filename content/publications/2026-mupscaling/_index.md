@@ -19,5 +19,4 @@ keywords:
   - training dynamics
   - infinite-width limit
 tldr: "We propose a μP-based model upscaling method that allows hyperparameter transfer."
-
 ---
