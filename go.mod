@@ -1,4 +1,4 @@
-module github.com/ym371/my_site
+module github.com/yuxinma98/yuxinma98.github.io
 
 go 1.21.5
 
