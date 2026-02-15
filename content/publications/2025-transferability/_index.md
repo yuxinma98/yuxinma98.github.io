@@ -17,5 +17,5 @@ keywords:
   - equivariant machine learning
   - any-dimensional learning
 tldr: "We study the properties that make machine learning models generalize their performance across input dimensions."
-posterUrl: "/posters/OnTransferringTransferabilit(landscape).pdf"
+posterUrl: "/posters/ontransferringtransferability.pdf"
 ---

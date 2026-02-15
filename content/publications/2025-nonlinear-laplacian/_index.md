@@ -14,5 +14,5 @@ keywords:
   - spiked matrix models
   - low-rank estimation
 tldr: "We study a new class of spectral algorithms for low-rank estimation that involve a tunable nonlinear deformation of an observed matrix. The tunable component can be selected using methods such as black-box optimization or learned from data using neural networks."
-posterUrl: "/posters/nonlinear_laplacian.pdf"
+posterUrl: "/posters/nonlinearlaplacian.pdf"
 ---
