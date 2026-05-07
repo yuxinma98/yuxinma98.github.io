@@ -22,7 +22,7 @@
   {{ end }}
 
   {{ if or $.Params.avenue (not .Date.IsZero) }}
-    <span class="text-sm text-neutral-500 dark:text-neutral-400">
+    <span class="ml-2 text-sm italic font-semibold text-neutral-700 dark:text-neutral-100">
       {{ if $.Params.avenue }}
         {{ $.Params.avenue }}
       {{ else if not .Date.IsZero }}
