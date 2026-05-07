@@ -8,7 +8,7 @@ authors:
   - "Soufiane Hayou"
   - "Dmitriy Kunisky"
   - "Soledad Villar"
-avenue: "ICML (2026)."
+avenue: "ICML 2026."
 arxivUrl: "https://arxiv.org/abs/2602.10545"
 codeUrl: "https://github.com/yuxinma98/mupscaling"
 keywords:
