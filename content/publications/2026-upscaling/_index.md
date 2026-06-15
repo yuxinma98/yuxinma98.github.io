@@ -10,7 +10,9 @@ authors:
   - "Soledad Villar"
 avenue: "ICML 2026."
 arxivUrl: "https://arxiv.org/abs/2602.10545"
+icmlUrl: "https://icml.cc/virtual/2026/poster/62988"
 codeUrl: "https://github.com/yuxinma98/mupscaling"
+posterUrl: "/posters/mupscaling.pdf"
 keywords:
   - model upscaling
   - hyperparameter transfer
