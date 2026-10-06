@@ -43,8 +43,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          submodules: recursive
+          submodules: false
           fetch-depth: 0
+      - name: Checkout Hugo theme
+        run: git submodule update --init --recursive themes/congo
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v4
