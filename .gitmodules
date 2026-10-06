@@ -4,4 +4,4 @@
 	branch = stable
 [submodule "CV_new"]
 	path = CV_new
-	url = git@github.com:yuxinma98/CV_new.git
+	url = https://github.com/yuxinma98/CV_new.git
