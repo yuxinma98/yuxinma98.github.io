@@ -16,6 +16,6 @@ keywords:
   - graph neural networks
   - equivariant machine learning
   - any-dimensional learning
-tldr: "We study the properties that make machine learning models generalize their performance across input dimensions."
+tldr: "We introduce a mathematical framework for understanding when machine learning models generalize across input dimensions, such as graph neural networks across graph sizes, Deep Sets across set sizes, and transformers across sequence lengths."
 posterUrl: "/posters/ontransferringtransferability.pdf"
 ---

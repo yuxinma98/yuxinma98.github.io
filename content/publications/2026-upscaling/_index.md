@@ -20,5 +20,5 @@ keywords:
   - tensor program
   - training dynamics
   - infinite-width limit
-tldr: "We propose a μP-based model upscaling method that allows hyperparameter transfer."
+tldr: "We propose a theoretically grounded model-upscaling method that uses a trained smaller neural network to initialize a larger one. The algorithm is based on dynamic equivalences between models of different widths and the μP infinite-width scaling limit, enabling zero-shot hyperparameter transfer."
 ---
