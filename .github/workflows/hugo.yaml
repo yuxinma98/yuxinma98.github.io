@@ -47,6 +47,22 @@ jobs:
           fetch-depth: 0
       - name: Checkout Hugo theme
         run: git submodule update --init --recursive themes/congo
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Checkout Slidev talk
+        uses: actions/checkout@v4
+        with:
+          repository: yuxinma98/anydim-learning-size-gen-talk
+          path: .talk-src/anydim
+      - name: Build Slidev talk
+        working-directory: .talk-src/anydim
+        run: |
+          npm ci --omit=dev
+          npx slidev build \
+            --base /slides/2026-anydim-learning/ \
+            --out "$GITHUB_WORKSPACE/static/slides/2026-anydim-learning"
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v4

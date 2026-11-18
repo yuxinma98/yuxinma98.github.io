@@ -2,3 +2,6 @@ public
 GEMINI.md
 CLAUDE.md
 .DS_Store
+
+.talk-src/
+static/slides/
