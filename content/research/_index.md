@@ -2,23 +2,22 @@
 title: "Research"
 aliases: ["/about/"]
 ---
-My current research has been revolving around the following topics:
+My current research focuses on the following topics, with links to my related papers and talks:
 
-* **Any-dimensional Learning and Size Generalization**: Architectures like transformers, graph neural networks (GNNs), and DeepSets are designed to handle inputs of varying sizes with fixed-size learnable weights. My research tries to understand their ability to generalize out-of-distribution across sizes: training on small-size inputs and performing well on large-size ones. 
-    * We proposed mathematical frameworks to understand the *structure* of the input space of these neural networks, modelling the relationship between objects of different sizes, and to understand the neural network's inductive bias on such structure [[1]](https://arxiv.org/abs/2505.23599) [[2]](https://yuxinma98.github.io/talks/2025_size_generalization/).
-    * We apply the theoretical understanding to practice: we design principled modifications on existing neural network architectures, to achieve effective size-generalization with theoretical guarantees. 
-    See [[3]](https://arxiv.org/abs/2610.00420) for application to weight-space learning.
-* **Scalings and Hyperparameter Transfer**: With different choice of scalings of the hyperparameters with respect to model width/depth (i.e. parameterizations), models of different sizes are related to each other in very different ways. Choice of parameterizations such as $\mu$P and CompleteP were derived so that they have well-behaved infinite-width/depth limit, and so models of different sizes are similarly behaved. This allows hyperparameter transfer (tuning on smaller-size neural networks and directly use on larger ones.) While the existing work focus on understanding the limit behavior in a probabilistic way, we find an interesting connection with the algebraic *structure* of the weight space, modelling the relationship between weights of narrower and wider networks.
-    * We leverage the connection to design an algorithm for principled *upscaling* neural networks: using a trained smaller model to initialize the training of a larger one [[4]](https://arxiv.org/abs/2602.10545).
-    * We also use the connection to understand the distribution of trained weights, so as to understand size-generalization in weight-space learning [[3]](https://arxiv.org/abs/2610.00420). 
-* **Random Matrix Theory and Spectral Algorithms**: Outside neural networks, I'm also interested in spectral algorithms in the low-rank recovery problems in high-dimensional statistics. I'm interested in the symmetry considerations underlying the algorithmic design, and the use of random matrix theory to characterize the performance.
-    * In [[5]](https://arxiv.org/abs/2505.12528), we propose a tunable spectral algorithm for Planted Clique problem with a learnable part.
+* **Any-dimensional Learning and Size Generalization**: Architectures such as transformers, graph neural networks (GNNs), and DeepSets process inputs of varying sizes using a fixed set of learnable weights. I study their ability to generalize out of distribution across sizes: training on small inputs and performing well on much larger ones.
+    * To understand the mechanism behind size generalization, we propose mathematical frameworks that capture the *structure* of the input spaces of these networks, modeling how objects of different sizes relate to one another, and that characterize the networks' inductive biases with respect to this structure [[1]](https://arxiv.org/abs/2505.23599) [[2]](https://yuxinma98.github.io/talks/2025_size_generalization/).
+    * We put this theory into practice by designing principled modifications to existing architectures that achieve effective size generalization with theoretical guarantees.
+    See [[3]](https://arxiv.org/abs/2610.00420) for an application to weight-space learning.
+* **Scaling and Hyperparameter Transfer**: How hyperparameters are scaled with model width and depth (i.e., the parameterization) determines how models of different sizes relate to one another. Parameterizations such as $\mu$P and CompleteP are derived to have well-behaved infinite-width and infinite-depth limits, so that models of different sizes behave similarly. This enables hyperparameter transfer: tuning hyperparameters on small networks and reusing them directly on larger ones. 
+    * While existing work studies these limits probabilistically, we find an interesting connection to the algebraic *structure* of the weight space, which models the relationship between the weights of narrower and wider networks. We leverage this connection to design a principled algorithm for *upscaling* neural networks, i.e., using a trained smaller model to initialize the training of a larger one [[4]](https://arxiv.org/abs/2602.10545). We also use it to understand the distribution of trained weights, which in turn sheds light on size generalization in weight-space learning [[3]](https://arxiv.org/abs/2610.00420).
+* **Random Matrix Theory and Spectral Algorithms**: Beyond neural networks, I am interested in spectral algorithms for low-rank recovery problems in high-dimensional statistics, particularly the symmetry considerations underlying their design and the use of random matrix theory to characterize their performance.
+    * In [[5]](https://arxiv.org/abs/2505.12528), we propose a tunable spectral algorithm with a learnable component for the planted clique problem.
 
 
-Related to the above, I'm also broadly interested in the following topics:
-* Symmetries in neural network architectures and algorithms in low-rank recovery
-* Various ways to understand limiting behavior of neural networks and their training dynamics under the randomness of initialization (law-of-large-number of central-limit theorem analysis, statistic physics, random matrix theory)
+More broadly, I am also interested in:
+* Symmetries in neural network architectures and other algorithmic design
+* Different approaches to understanding the limiting behavior of neural networks and their training dynamics under random initialization (law of large numbers and central limit theorem analyses, statistical physics, random matrix theory)
 * Theory of scaling laws
-* "Learning an algorithm" that provably outperform existing ones
+* "Learning algorithms" that provably outperform existing traditional algorithms
 
-If you share an interest in any of these, I would be delighted to connect.
+If you share any of these interests, I would be delighted to connect.
