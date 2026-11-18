@@ -55,6 +55,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: yuxinma98/anydim-learning-size-gen-talk
+          token: ${{ secrets.SLIDES_REPO_TOKEN }}
           path: .talk-src/anydim
       - name: Build Slidev talk
         working-directory: .talk-src/anydim
