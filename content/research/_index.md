@@ -1,6 +1,7 @@
 ---
 title: "Research"
 aliases: ["/about/"]
+layout: "simple"
 ---
 My current research focuses on the following topics, with links to my related papers and talks:
 
