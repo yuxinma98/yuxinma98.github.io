@@ -55,15 +55,19 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: yuxinma98/anydim-learning-size-gen-talk
+          ref: prelude-slides
           ssh-key: ${{ secrets.SLIDES_DEPLOY_KEY }}
           path: .talk-src/anydim
-      - name: Build Slidev talk
+      - name: Build Slidev talk (45 min and 25 min versions)
         working-directory: .talk-src/anydim
         run: |
           npm ci --omit=dev
-          npx slidev build \
+          npx slidev build slides-45.md \
             --base /slides/2026-anydim-learning/ \
             --out "$GITHUB_WORKSPACE/static/slides/2026-anydim-learning"
+          npx slidev build slides-25.md \
+            --base /slides/2026-anydim-learning-25/ \
+            --out "$GITHUB_WORKSPACE/static/slides/2026-anydim-learning-25"
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v4

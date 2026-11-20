@@ -1,0 +1,30 @@
+{{/* Related papers of a talk. Each entry of front matter `papers` is either
+     - a publication bundle path, e.g. "publications/2025-transferability" (title, venue, link read from it), or
+     - an inline map {title, url, venue} for work not on the Publications page. */}}
+{{ with .Params.papers }}
+  <div class="talk-papers">
+    <span class="talk-papers-label">Related papers</span>
+    <ul>
+      {{ range . }}
+        {{ if reflect.IsMap . }}
+          <li>
+            <a class="talk-link" href="{{ .url }}">{{ .title | markdownify }}</a>
+            {{ with .venue }}<span class="talk-paper-venue">{{ . }}</span>{{ end }}
+          </li>
+        {{ else }}
+        {{ with site.GetPage (printf "/%s" (strings.TrimPrefix "/" .)) }}
+          <li>
+            <a class="talk-link" href="{{ .Params.arxivUrl | default .RelPermalink }}">{{ .Title | safeHTML }}</a>
+            {{- $venue := strings.TrimSuffix "." (.Params.avenue | default "") }}
+            {{- $year := .Date.Format "2006" }}
+            {{- if and $venue (not (strings.Contains $venue $year)) }}{{ $venue = printf "%s, %s" $venue $year }}{{ end }}
+            {{ with $venue }}<span class="talk-paper-venue">{{ . }}</span>{{ end }}
+          </li>
+        {{ else }}
+          {{ errorf "talk %q: publication %q not found" $.File.Path . }}
+        {{ end }}
+        {{ end }}
+      {{ end }}
+    </ul>
+  </div>
+{{ end }}

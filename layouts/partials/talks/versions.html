@@ -1,0 +1,17 @@
+{{/* Table of the versions of a talk (front matter `versions`), newest first as listed. */}}
+{{ with .Params.versions }}
+  <div class="talk-versions">
+    {{ range . }}
+      <div class="talk-version">
+        <span class="talk-date">
+          {{ with .date }}<time datetime="{{ time.Format "2006-01-02" . }}">{{ time.Format "Jan 2, 2006" . }}</time>{{ end }}
+        </span>
+        <span class="talk-venue">{{ .location | markdownify }}</span>
+        <span class="talk-length">{{ .length }}</span>
+        <span class="talk-slides">
+          {{ with .slidesUrl }}<a class="talk-link" href="{{ . }}">Slides</a>{{ end }}
+        </span>
+      </div>
+    {{ end }}
+  </div>
+{{ end }}

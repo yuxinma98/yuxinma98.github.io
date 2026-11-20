@@ -1,53 +1,35 @@
 {{ define "main" }}
-  {{ $toc := and (.Params.showTableOfContents | default (.Site.Params.list.showTableOfContents | default false)) (in .TableOfContents "<ul") }}
-  <header>
-    {{ if .Params.showBreadcrumbs | default (.Site.Params.list.showBreadcrumbs | default false) }}
-      {{ partial "breadcrumbs.html" . }}
+  {{ if .Pages }}
+    {{/* ----- /talks/: list of talk cards, newest first (by front matter `date`) ----- */}}
+    <header>
+      <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">{{ .Title }}</h1>
+    </header>
+    {{ with .Content }}
+      <section class="prose mt-4 max-w-prose dark:prose-invert">{{ . | emojify }}</section>
     {{ end }}
-    <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">{{ .Title }}</h1>
-  </header>
-  <section
-    class="{{ if $toc -}}
-      mt-12
-    {{- else -}}
-      mt-0
-    {{- end }} prose flex max-w-full flex-col dark:prose-invert lg:flex-row"
-  >
-    {{ if $toc }}
-      <div class="order-first px-0 lg:order-last lg:max-w-xs lg:ps-8">
-        <div class="toc ps-5 lg:sticky lg:top-10">
-          {{ partial "toc.html" . }}
-        </div>
-      </div>
-    {{ end }}
-    <div class="min-w-0 min-h-0 max-w-prose grow">
-      {{ .Content | emojify }}
-    </div>
-  </section>
-  {{ if .Data.Pages }}
-    <section>
-      {{ if $.Params.groupByYear | default ($.Site.Params.list.groupByYear | default true) }}
-        {{ range (.Paginate (.Pages.GroupByDate "2006")).PageGroups }}
-          <h2 class="mt-12 text-2xl font-bold text-neutral-700 first:mt-8 dark:text-neutral-300">
-            {{ .Key }}
-          </h2>
-          <hr class="border-dotted w-36 border-neutral-400" />
-          {{ range .Pages }}
-            {{ partial "talks/article-link.html" . }}
-          {{ end }}
-        {{ end }}
-      {{ else }}
-        {{ range (.Paginate .Pages).Pages }}
-          {{ partial "talks/article-link.html" . }}
-        {{ end }}
+    <section class="mt-4">
+      {{ range (.Paginate .Pages).Pages }}
+        {{ partial "talks/article-link.html" . }}
       {{ end }}
     </section>
     {{ partial "pagination.html" . }}
   {{ else }}
-    <section class="mt-10 prose dark:prose-invert">
-      <p class="py-8 border-t">
-        <em>{{ i18n "list.no_articles" | emojify }}</em>
+    {{/* ----- /talks/<talk>/: one talk, abstract shown in full ----- */}}
+    <article class="talk-page">
+      <header>
+        <h1 class="talk-page-title mt-0 text-neutral-900 dark:text-neutral">{{ .Title | emojify }}</h1>
+      </header>
+      {{ partial "talks/versions.html" . }}
+      {{ partial "talks/papers.html" . }}
+      {{ with .Content }}
+        <section class="prose dark:prose-invert">
+          <h2>Abstract</h2>
+          {{ . | emojify }}
+        </section>
+      {{ end }}
+      <p class="talk-back">
+        <a class="talk-link" href="{{ .Parent.RelPermalink }}">&larr; All talks</a>
       </p>
-    </section>
+    </article>
   {{ end }}
 {{ end }}

@@ -1,10 +1,14 @@
 ---
 title: "Some thoughts on size generalization"
 date: 2025-08-12
-location: "Graph Learning Meets Theoretical Computer Science Workshop, Simons Institute"
-slidesUrl: "https://livejohnshopkins-my.sharepoint.com/:b:/g/personal/yma93_jh_edu/EcgSu_L5S-JGp94tD_eFee4BbmMHpOjjVc-US6vH2p3Axw"
+summary: "Models such as DeepSets, GNNs, and transformers accept inputs of any size, but what makes them generalize from small training inputs to larger test inputs? I argue that two ingredients matter: the task must align with the model, and the training and test distributions must be similar as measured by the model's inductive bias."
+versions:
+  - date: 2025-08-12
+    location: "Graph Learning Meets Theoretical Computer Science Workshop, Simons Institute"
+    length: "15 min"
+    slidesUrl: "https://livejohnshopkins-my.sharepoint.com/:b:/g/personal/yma93_jh_edu/EcgSu_L5S-JGp94tD_eFee4BbmMHpOjjVc-US6vH2p3Axw"
+papers:
+  - publications/2025-transferability
 draft: false
 ---
-**Abstract**: This talks explore the question: For existing models capable of handling inputs of arbitrary sizes (e.g. DeepSet, GNN, transformer), what properties of the data and task enable eff ective size generalization? My answer involves two key points: (1) task-model alignment; (2) training and test distributions are “similar” relative to the model’s inductive bias.
-
-[Slides](https://livejohnshopkins-my.sharepoint.com/:b:/g/personal/yma93_jh_edu/EcgSu_L5S-JGp94tD_eFee4BbmMHpOjjVc-US6vH2p3Axw)
+This talk explores the question: For existing models capable of handling inputs of arbitrary sizes (e.g. DeepSet, GNN, transformer), what properties of the data and task enable effective size generalization? My answer involves two key points: (1) task-model alignment; (2) training and test distributions are “similar” relative to the model’s inductive bias.
