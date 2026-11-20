@@ -6,7 +6,7 @@ versions:
   - date: 2025-08-12
     location: "Graph Learning Meets Theoretical Computer Science Workshop, Simons Institute"
     length: "15 min"
-    slidesUrl: "https://livejohnshopkins-my.sharepoint.com/:b:/g/personal/yma93_jh_edu/EcgSu_L5S-JGp94tD_eFee4BbmMHpOjjVc-US6vH2p3Axw"
+    slidesUrl: "/files/2025-08_size-generalization_Simons.pdf"
 papers:
   - publications/2025-transferability
 draft: false

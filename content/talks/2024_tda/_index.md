@@ -6,10 +6,10 @@ versions:
   - date: 2024-03-26
     location: "Graduate Student Seminar, Department of Applied Math and Statistics, Johns Hopkins University"
     length: "45 min"
-    slidesUrl: "https://livejohnshopkins-my.sharepoint.com/:b:/g/personal/yma93_jh_edu/EUb09Hi4PO9Mqsnz2DvqEWABLRR5V59lNZp86Ej1T9aXuw?e=j5z1qy"
+    slidesUrl: "/files/2024-03_tda.pdf"
 papers:
   - title: "Master's essay on topological data analysis"
-    url: "https://1drv.ms/b/c/e03f4172bb13adf9/EfmtE7tyQT8ggOCNmQAAAAABhfVBbB6fDku2oiO60cYQzw"
+    url: "/files/part-iii-essay.pdf"
     venue: "University of Cambridge"
 draft: false
 ---
